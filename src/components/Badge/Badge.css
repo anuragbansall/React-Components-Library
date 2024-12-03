@@ -1,0 +1,72 @@
+:root{
+    --gray-bg: #F3F4F6;
+    --gray-text: #1F2937;
+    --red-bg: #FEE2E2;
+    --red-text: #991B1B;
+    --yellow-bg: #FEF3C7;
+    --yellow-text: #92400E;
+    --green-bg: #D1FAE5;
+    --green-text: #065F46;
+    --blue-bg: #DBEAFE;
+    --blue-text: #1E40AF;
+    --indigo-bg: #E0E7FF;
+    --indigo-text: #3730A3;
+    --purple-bg: #EDE9FE;
+    --purple-text: #5B21B6;
+    --pink-bg: #FCE7F3;
+    --pink-text: #9D174D;
+}
+
+.badge-component{
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    font-weight: 500;
+}
+
+.square{
+    border-radius: 0.5em;
+}
+
+.pill{
+    border-radius: 50px;
+}
+
+.gray{
+    background-color: var(--gray-bg);
+    color: var(--gray-text);
+}
+
+.red{
+    background-color: var(--red-bg);
+    color: var(--red-text);
+}
+
+.yellow{
+    background-color: var(--yellow-bg);
+    color: var(--yellow-text);
+}
+
+.green{
+    background-color: var(--green-bg);
+    color: var(--green-text);
+}
+
+.blue{
+    background-color: var(--blue-bg);
+    color: var(--blue-text);
+}
+
+.indigo{
+    background-color: var(--indigo-bg);
+    color: var(--indigo-text);
+}
+
+.purple{
+    background-color: var(--purple-bg);
+    color: var(--purple-text);
+}
+
+.pink{
+    background-color: var(--pink-bg);
+    color: var(--pink-text);
+}

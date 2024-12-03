@@ -1,0 +1,105 @@
+:root{
+    --success-bg: #ECFDF5;
+    --success-title: #065F46;
+    --success-message: #047857;
+    --success-icon: #34D399;
+    --warning-bg: #FFFBEB;
+    --warning-title: #92400E;
+    --warning-message: #B45309;
+    --warning-icon: #FBBF24;
+    --error-bg: #FEF2F2;
+    --error-title: #92400E;
+    --error-message: #B45309;
+    --error-icon: #F87171;
+    --neutral-bg: #EFF6FF;
+    --neutral-title: #1E40AF;
+    --neutral-message: #1C51B9;
+    --neutral-icon: #60A5FA;
+}
+
+.banner-component{
+    width: 100%;
+    padding: 0.5em 1em;
+    font-weight: 500;
+    display: flex;
+    gap: 0.5rem;
+    padding: 1.5em;
+    border-radius: 0.5em;
+}
+
+.banner-component .icon{
+    font-size: 1.5rem;
+}
+
+.banner-component .title{
+    font-size: 1.25rem;
+}
+
+.banner-component .message{
+    font-size: 1rem;
+    margin-top: 0.75em;
+}
+
+.success{
+    background-color: var(--success-bg);
+}
+
+.success .icon{
+    color: var(--success-icon);
+}
+
+.success .title{
+    color: var(--success-title);
+}
+
+.success .message{
+    color: var(--success-message);
+}
+
+.warning{
+    background-color: var(--warning-bg);
+}
+
+.warning .icon{
+    color: var(--warning-icon);
+}
+
+.warning .title{
+    color: var(--warning-title);
+}
+
+.warning .message{
+    color: var(--warning-message);
+}
+
+.error{
+    background-color: var(--error-bg);
+}
+
+.error .icon{
+    color: var(--error-icon);
+}
+
+.error .title{
+    color: var(--error-title);
+}
+
+.error .message{
+    color: var(--error-message);
+}
+
+.neutral{
+    background-color: var(--neutral-bg);
+}
+
+.neutral .icon{
+    color: var(--neutral-icon);
+}
+
+.neutral .title{
+    color: var(--neutral-title);
+}
+
+.neutral .message{
+    color: var(--neutral-message);
+}
