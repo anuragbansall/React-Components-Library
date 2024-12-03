@@ -6,11 +6,12 @@
   align-items: center;
   background-color: #111;
   padding: 2rem;
+  color: white;
 }
 
 .component-test{
   min-height: 60vh;
-  width: 70%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;

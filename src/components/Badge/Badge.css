@@ -21,6 +21,8 @@
     font-size: 1rem;
     padding: 0.5em 1em;
     font-weight: 500;
+    background-color: var(--gray-bg);
+    color: var(--gray-text);
 }
 
 .square{

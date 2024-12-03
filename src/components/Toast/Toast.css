@@ -11,36 +11,47 @@
     --error-title: #92400E;
     --error-message: #B45309;
     --error-icon: #F87171;
-    --neutral-bg: #EFF6FF;
-    --neutral-title: #1E40AF;
-    --neutral-message: #1C51B9;
-    --neutral-icon: #60A5FA;
+    --information-bg: #EFF6FF;
+    --information-title: #1E40AF;
+    --information-message: #1C51B9;
+    --information-icon: #60A5FA;
 }
 
-.banner-component{
-    /* width: 100%; */
+.toast-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.toast-component{
+    margin: 1rem;
+    z-index: 9999;
+    min-width: 30rem;
+    max-width: 60vw;
     padding: 0.5em 1em;
-    font-weight: 500;
     display: flex;
     gap: 0.5rem;
     padding: 1.5em;
     border-radius: 0.5em;
-    background-color: var(--neutral-bg);
+    background-color: var(--information-bg);
+    transition: all 1s;
 }
 
-.banner-component .icon{
+.toast-component .icon{
     flex-shrink: 0;
-    color: var(--neutral-icon);
+    color: var(--information-icon);
     font-size: 1.5rem;
 }
 
-.banner-component .title{
-    color: var(--neutral-title);
+.toast-component .title{
+    color: var(--information-title);
     font-size: 1.25rem;
 }
 
-.banner-component .message{
-    color: var(--neutral-message);
+.toast-component .message{
+    color: var(--information-message);
     font-size: 1rem;
     margin-top: 0.75em;
 }
@@ -93,18 +104,26 @@
     color: var(--error-message);
 }
 
-.neutral{
-    background-color: var(--neutral-bg);
+.information{
+    background-color: var(--information-bg);
 }
 
-.neutral .icon{
-    color: var(--neutral-icon);
+.information .icon{
+    color: var(--information-icon);
 }
 
-.neutral .title{
-    color: var(--neutral-title);
+.information .title{
+    color: var(--information-title);
 }
 
-.neutral .message{
-    color: var(--neutral-message);
+.information .message{
+    color: var(--information-message);
+}
+
+.hide {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 1s;
+    pointer-events: none;
+    visibility: hidden;
 }
